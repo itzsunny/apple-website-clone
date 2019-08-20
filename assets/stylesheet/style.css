@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*,*:before ,*:after {
+	box-sizing: border-box;
+}
+.cf:before, .cf:after {
+	content: "";
+	display: table;
+}
+.cf:after {
+	clear: both;
+}
+.head {
+	background: #182D3F;
+	width: 100%;
+	height:50px;
+	position: fixed;
+	z-index: 3;
+}
+.products {
+    line-height: 50px;
+    float: left;
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+
+ }
+.products a {
+	text-decoration: none;
+	color:rgba(255,255,255,0.7);
+	float: left;
+	margin-left: 65px;	
+}
+.products a:hover {
+	color:#fff;
+}
+.logo {
+	margin-left: 0px;
+}
+.wrapper {
+	max-width: 70%;
+	margin:0 auto;
+}
+.support {
+	float:left;
+	text-decoration: none;
+	font-size: 24px;
+	padding-top: 20px;
+}
+.support-2 {
+	padding-top: 20px;
+}
+.support-2 a {
+	float: right;
+	text-decoration: none;
+	margin-right: 10px;
+	font-size: 14px;
+
+}
+.color01 {
+	color:#fff;
+	line-height: 40px;
+}
+.article1 {
+
+	width: 100%;
+	height: 700px;
+	position: fixed;
+	top:40px;
+	right:0px;
+	left:0px;
+	display: inline-block;
+	background-image: url('../media/mojave_dynamic/mojave_dynamic_1.jpeg');
+	background-size: 100% 100%;
+	animation:slider 30s infinite linear;
+}
+.hr {
+	margin-top:40px;
+	opacity: 0.4;
+}
+ .mojave {
+ 	text-align: center;
+ 	padding:25% 0;
+}
+.mojave01{
+	font-size: 70px;
+	font-weight: 100;
+}
+.mojave02 {
+	padding: 20px 0;
+	font-size: 30px;
+	font-weight: lighter;
+}
+.article2 {
+	background: rgba(0,0,0,0.9);
+	}
+.section2 {
+	position: relative;
+	top:750px;
+	height:680px;
+}
+.img {
+	width: 100%;
+}
+.img1 {
+	width: 50%;
+	float: left;
+	padding: 20px;
+}
+.apple {
+	float: left;
+	width: 50%;
+	padding: 20px;
+	color:#fff;
+}
+.apple h1 {
+	font-size: 40px;
+	padding: 30px;
+}
+.apple p {
+	font-size: 15px;
+}
+.gallery {
+	background: rgba(0,0,10,0.5);
+	padding-bottom: 60px;
+	text-align: center;
+}
+.margin{
+	width: 90%;
+	margin: 0 auto;
+}
+.img2 {
+	float: left;
+	width: 33%;
+}
+.img01 {
+	width: 100%;
+	padding: 10px;
+	border-radius: 8%;
+}
+.row {
+	width: 100%;
+	}
+.footer {
+	word-spacing: 15px;
+	background:rgba(0.0.0,0.9);
+	padding: 20px 0;
+}
+.footer-a {
+	text-decoration: none;
+	font-size:20px;
+	color:rgba(255,255,255,0.8);
+}
+
+	@keyframes slider {
+	0% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_1.jpeg');
+		}
+	6% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_2.jpeg');
+	}
+	12% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_3.jpeg');
+	}
+	18% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_4.jpeg');
+	}
+	24% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_5.jpeg');
+	}
+	30% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_6.jpeg');
+	}
+	36% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_7.jpeg');
+	}
+	42% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_8.jpeg');
+	}
+	48% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_9.jpeg');
+	}
+	54% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_10.jpeg');
+	}
+	60% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_11.jpeg');
+	}
+	66% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_12.jpeg');
+	}
+	72% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_13.jpeg');
+	}
+	78% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_14.jpeg');
+	}
+	84% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_15.jpeg');
+	}
+	90% {
+		background-image: url('../media/mojave_dynamic/mojave_dynamic_16.jpeg');
+}
+
